@@ -18,6 +18,6 @@ bell_pair = teleportation.make_bell_pair(0, 1)
 ft_bell_pair = bamboo.bit_flip_3_code(bell_pair)
 
 # Alternatively, ask for certain protection
-pr_bell_pair = bamboo.protect(bit_flips=1, sign_flips=0)
+pr_bell_pair = bamboo.protect(bf=1, sign_flips=0)
 
 ```
